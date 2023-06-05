@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(58, 58, 158, 0.8), rgb(186, 113, 187)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    height: 230vh;
+    opacity: 0.8;
+    padding: 0px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    color: #fff;
+    text-align: center;
+}
+#container{
+    background-color:#4a4444;
+    /* margin: 0 200px; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 35px 30px 30px ;
+
+    /* padding: 30px 40px 30px 40px; */
+}
+label{
+    display: block;
+}
+input[type=text],input[type=email],input[type=number]{
+    height: 6vh;
+    padding: 2px 10px;
+    width: 58vw;
+    margin: auto;
+    border: whitesmoke solid 1px;
+    border-radius:5px;
+}
+input[type=submit]{
+    background-color: rgb(49, 197, 76) ;
+    height: 7vh;
+    padding: 2px 10px;
+    width: 57.4vw;
+    margin: 30px 20px 30px 20px;
+    border: rgb(49, 197, 76) solid 1px;
+    border-radius:3px;
+    color: white;
+    font-size: 1em;
+}
+select{
+    height: 6vh;
+    padding: 2px 10px;
+    width: 60vw;
+    margin: auto;
+    border: whitesmoke solid 1px;
+    border-radius:3px;
+}
+input[type=textarea]{
+    display: block;
+    height: 20vh;
+    width: 57.4vw;
+    margin: auto;
+    padding: 10px 10px;
+}input[type=textarea]::placeholder{
+    margin: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    
+}
